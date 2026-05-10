@@ -3,12 +3,20 @@ message: "If you use SNRA, please cite the archived software release and the ass
 title: "SNRA: Spatial Niche Robustness Auditor"
 abstract: "Spatial Niche Robustness Auditor is a lightweight audit framework for calibrating spatial omics domain, boundary and package-output claims against matched negative controls."
 version: "0.1.0"
-date-released: "2026-05-09"
+date-released: "2026-05-10"
 license: "BSD-3-Clause"
+doi: "10.5281/zenodo.20110429"
 authors:
   - name: "SNRA development team"
 repository-code: "https://github.com/liwd9836-hub/snra-auditor"
 url: "https://github.com/liwd9836-hub/snra-auditor"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20110429"
+    description: "Archived Zenodo software release v0.1.0"
+  - type: doi
+    value: "10.5281/zenodo.20110428"
+    description: "Zenodo concept DOI for all SNRA releases"
 keywords:
   - spatial omics
   - negative controls

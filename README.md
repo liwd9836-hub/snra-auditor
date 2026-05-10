@@ -146,7 +146,13 @@ $env:PYTHONPATH="D:\projects\suanfa\src"
 snra --help
 ```
 
-The repository is DOI-ready but not yet DOI-complete. `CITATION.cff` and `.zenodo.json` are included so that a public release tag can be archived through Zenodo or an equivalent repository. Replace the placeholder repository URLs and update Code Availability only after the public archive has minted a DOI.
+Archived software release:
+
+- Version DOI: [10.5281/zenodo.20110429](https://doi.org/10.5281/zenodo.20110429)
+- Concept DOI for all SNRA releases: [10.5281/zenodo.20110428](https://doi.org/10.5281/zenodo.20110428)
+- GitHub release: [v0.1.0](https://github.com/liwd9836-hub/snra-auditor/releases/tag/v0.1.0)
+
+Use the version DOI when citing this exact release.
 
 See `docs/寮€鍙戣鏄巁绗竴鐗?md` for the Chinese workflow note.
 
