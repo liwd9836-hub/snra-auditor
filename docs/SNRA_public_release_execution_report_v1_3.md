@@ -39,6 +39,8 @@ Latest GitHub Actions status:
 - `SNRA tests`: success
 - Python 3.10 smoke: success
 - Python 3.11 smoke: success
+- Manual workflow dispatch after DOI metadata update: success
+- Latest checked run: `https://github.com/liwd9836-hub/snra-auditor/actions/runs/25630717933`
 
 ## Zenodo status
 
