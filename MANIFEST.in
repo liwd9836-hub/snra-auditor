@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include CITATION.cff
+include .zenodo.json
+recursive-include examples *.json *.tsv *.md
+recursive-include docs SNRA_package_quickstart_v1_1.md SNRA_NatureMethods_reproducibility_checklist_v1_0.md
+recursive-include metadata/snra *.tsv *.json

@@ -1,0 +1,5 @@
+command	output
+snra validate-manifest	checks required fields
+snra audit	runs matched controls
+snra report	writes audit card and ledger
+snra figures	exports source-backed figures

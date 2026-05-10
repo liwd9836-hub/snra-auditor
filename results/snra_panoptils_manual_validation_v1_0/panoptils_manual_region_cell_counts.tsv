@@ -1,0 +1,9 @@
+manual_region_label	cell_family	n_objects
+Cancerous_epithelium	cancer_cell	779
+Cancerous_epithelium	stromal_cell	27
+Cancerous_epithelium	til_cell	28
+Stroma	cancer_cell	30
+Stroma	stromal_cell	160
+Stroma	til_cell	136
+TILs_region	stromal_cell	30
+TILs_region	til_cell	225

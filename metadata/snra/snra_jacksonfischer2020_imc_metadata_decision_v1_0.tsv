@@ -1,0 +1,2 @@
+dataset	n_cells	n_markers	has_coordinate_candidates	has_block_candidates	has_image_composition_covariates	has_domain_or_compartment_candidates	has_phenotype_candidates	decision	caveat
+JacksonFischer_2020_BreastCancer_Basel_sce	285851	45	TRUE	TRUE	TRUE	FALSE	TRUE	DOWNGRADE_TO_PHENOTYPE_OR_STRESS_CANDIDATE	No explicit region/domain/compartment/margin/annotation column detected in colData; tumor_* clinical fields and image_percent_* fields are not manual spatial domain labels.

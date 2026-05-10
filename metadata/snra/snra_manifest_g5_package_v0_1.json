@@ -1,0 +1,13 @@
+{
+  "schema_version": "snra_manifest_v0_1",
+  "description": "Minimal manifest for the current G5 containerized package benchmark summary.",
+  "inputs": [
+    {
+      "id": "g5_container_package_summary",
+      "path": "results/snra_phase0_10_v0_1/snra_phase_g5_container_full_package_summary_v0_2.tsv",
+      "table_kind": "summary",
+      "title": "SNRA G5 container package benchmark summary audit"
+    }
+  ]
+}
+

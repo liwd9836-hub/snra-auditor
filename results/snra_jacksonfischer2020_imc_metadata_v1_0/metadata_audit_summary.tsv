@@ -1,0 +1,11 @@
+metric	value
+n_cells	285851
+n_markers	45
+n_coldata_columns	75
+n_rowdata_columns	7
+n_coordinate_candidates	4
+n_block_candidates	17
+n_image_composition_covariates	4
+n_domain_or_compartment_candidates	0
+n_phenotype_candidates	2
+n_clinical_covariates_not_domain	30

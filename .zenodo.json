@@ -1,0 +1,28 @@
+﻿{
+  "title": "SNRA: Spatial Niche Robustness Auditor",
+  "description": "Software and reproducibility artifacts for a negative-control-aware auditor that certifies, downgrades or blocks spatial omics domain and boundary claims under predefined null, composition, block, subsampling and package-stress controls.",
+  "creators": [
+    {
+      "name": "SNRA development team"
+    }
+  ],
+  "license": "BSD-3-Clause",
+  "upload_type": "software",
+  "keywords": [
+    "spatial omics",
+    "spatial transcriptomics",
+    "multiplexed imaging",
+    "negative controls",
+    "claim calibration",
+    "robustness audit"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/liwd9836-hub/snra-auditor",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Public repository URL and DOI must be replaced after release archiving. Do not cite this placeholder as a DOI."
+}
+

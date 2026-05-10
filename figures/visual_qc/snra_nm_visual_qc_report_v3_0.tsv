@@ -1,0 +1,49 @@
+figure	title	check	pass	note
+figure1	Problem and SNRA workflow overview	visually_clean	True	uses manuscript style, restrained colors, thin grids
+figure1	Problem and SNRA workflow overview	enough_panels	True	six panels A-F
+figure1	Problem and SNRA workflow overview	hierarchy_clear	True	panel titles are claim-oriented
+figure1	Problem and SNRA workflow overview	standalone_interpretable	True	figure claim and panel functions are explicit
+figure1	Problem and SNRA workflow overview	nature_methods_like	True	vector outputs, non-default palette, source-data backed
+figure1	Problem and SNRA workflow overview	negative_controls_paired	True	observed outputs are paired with null/control where relevant
+figure1	Problem and SNRA workflow overview	outputs_nonzero	True	PDF/SVG/PNG generated
+figure1	Problem and SNRA workflow overview	source_data_present	True	one or more source data table per panel
+figure2	Matched negative-control taxonomy	visually_clean	True	uses manuscript style, restrained colors, thin grids
+figure2	Matched negative-control taxonomy	enough_panels	True	six panels A-F
+figure2	Matched negative-control taxonomy	hierarchy_clear	True	panel titles are claim-oriented
+figure2	Matched negative-control taxonomy	standalone_interpretable	True	figure claim and panel functions are explicit
+figure2	Matched negative-control taxonomy	nature_methods_like	True	vector outputs, non-default palette, source-data backed
+figure2	Matched negative-control taxonomy	negative_controls_paired	True	observed outputs are paired with null/control where relevant
+figure2	Matched negative-control taxonomy	outputs_nonzero	True	PDF/SVG/PNG generated
+figure2	Matched negative-control taxonomy	source_data_present	True	one or more source data table per panel
+figure3	Synthetic benchmark	visually_clean	True	uses manuscript style, restrained colors, thin grids
+figure3	Synthetic benchmark	enough_panels	True	six panels A-F
+figure3	Synthetic benchmark	hierarchy_clear	True	panel titles are claim-oriented
+figure3	Synthetic benchmark	standalone_interpretable	True	figure claim and panel functions are explicit
+figure3	Synthetic benchmark	nature_methods_like	True	vector outputs, non-default palette, source-data backed
+figure3	Synthetic benchmark	negative_controls_paired	True	observed outputs are paired with null/control where relevant
+figure3	Synthetic benchmark	outputs_nonzero	True	PDF/SVG/PNG generated
+figure3	Synthetic benchmark	source_data_present	True	one or more source data table per panel
+figure4	Real-data cross-platform benchmark	visually_clean	True	uses manuscript style, restrained colors, thin grids
+figure4	Real-data cross-platform benchmark	enough_panels	True	six panels A-F
+figure4	Real-data cross-platform benchmark	hierarchy_clear	True	panel titles are claim-oriented
+figure4	Real-data cross-platform benchmark	standalone_interpretable	True	figure claim and panel functions are explicit
+figure4	Real-data cross-platform benchmark	nature_methods_like	True	vector outputs, non-default palette, source-data backed
+figure4	Real-data cross-platform benchmark	negative_controls_paired	True	observed outputs are paired with null/control where relevant
+figure4	Real-data cross-platform benchmark	outputs_nonzero	True	PDF/SVG/PNG generated
+figure4	Real-data cross-platform benchmark	source_data_present	True	one or more source data table per panel
+figure5	Biological case study	visually_clean	True	uses manuscript style, restrained colors, thin grids
+figure5	Biological case study	enough_panels	True	six panels A-F
+figure5	Biological case study	hierarchy_clear	True	panel titles are claim-oriented
+figure5	Biological case study	standalone_interpretable	True	figure claim and panel functions are explicit
+figure5	Biological case study	nature_methods_like	True	vector outputs, non-default palette, source-data backed
+figure5	Biological case study	negative_controls_paired	True	observed outputs are paired with null/control where relevant
+figure5	Biological case study	outputs_nonzero	True	PDF/SVG/PNG generated
+figure5	Biological case study	source_data_present	True	one or more source data table per panel
+figure6	Software and reproducibility	visually_clean	True	uses manuscript style, restrained colors, thin grids
+figure6	Software and reproducibility	enough_panels	True	six panels A-F
+figure6	Software and reproducibility	hierarchy_clear	True	panel titles are claim-oriented
+figure6	Software and reproducibility	standalone_interpretable	True	figure claim and panel functions are explicit
+figure6	Software and reproducibility	nature_methods_like	True	vector outputs, non-default palette, source-data backed
+figure6	Software and reproducibility	negative_controls_paired	True	observed outputs are paired with null/control where relevant
+figure6	Software and reproducibility	outputs_nonzero	True	PDF/SVG/PNG generated
+figure6	Software and reproducibility	source_data_present	True	one or more source data table per panel

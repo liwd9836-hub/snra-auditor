@@ -1,0 +1,8 @@
+source_file	source_label	role	exists	n_rows
+results/snra_phase0_10_v0_1/snra_tonic_lineage_stratified_boundary_summary_v1_2.tsv	TONIC lineage-stratified boundary summary	primary lineage boundary evidence	True	12
+results/snra_phase0_10_v0_1/snra_crc_st_composition_aware_audit_summary_v0_1.tsv	CRC ST composition-aware audit summary	external spot-level validation	True	1
+results/snra_phase0_10_v0_1/snra_wu_breast_composition_aware_audit_summary_v0_1.tsv	Wu breast composition-aware audit summary	external spot-level validation	True	1
+results/snra_phase0_10_v0_1/snra_plan_f_bcc_cosmx_morphology_composition_aware_audit_summary_v0_1.tsv	BCC CosMx morphology composition-aware audit summary	supporting underpowered audit	True	1
+results/snra_phase0_10_v0_1/snra_phase_g5_container_full_package_summary_v0_2.tsv	G5 container full package benchmark summary	package negative-control calibration	True	30
+results/snra_phase0_10_v0_1/snra_phase_g5_container_full_package_status_v0_2.tsv	G5 container package status	package version/status provenance	True	8
+results/snra_phase0_10_v0_1/snra_phase_g5_package_calibration_audit_v0_1.tsv	G5 package calibration audit	claim-calibration interpretation provenance	True	8

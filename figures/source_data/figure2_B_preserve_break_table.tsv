@@ -1,0 +1,5 @@
+control	preserves	breaks
+abundance-matched	cell/spot counts	spatial assignment
+region-matched	tissue region	claim label
+degree-matched	graph degree	neighbor identity
+FOV/block-matched	acquisition block	biological interpretation

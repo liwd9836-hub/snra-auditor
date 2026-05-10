@@ -1,0 +1,11 @@
+artifact	role	path	status	note
+pyproject	package_metadata	pyproject.toml	ready	version 0.1.0; BSD-3-Clause license file declared; public repository URLs still placeholders.
+readme	package_readme	README.md	ready_updated	Root README now identifies SNRA as the release-facing package and documents DOI status.
+license	software_license	LICENSE	ready	BSD 3-Clause license.
+citation_cff	citation_metadata	CITATION.cff	doi_pending	Ready for public release; repository URL and preferred citation must be replaced after public archive.
+zenodo_metadata	archive_metadata	.zenodo.json	doi_pending	Ready for Zenodo-style archiving; DOI must not be claimed until minted.
+manifest_in	source_distribution_manifest	MANIFEST.in	ready	Includes README, license, citation metadata, examples, core docs and SNRA metadata.
+github_ci	core_ci_workflow	.github/workflows/snra-tests.yml	ready	Core package CI workflow present; public runner validation still requires remote repository.
+submission_env	reproducibility_environment	environment_snra_submission.yml	ready	Lightweight core environment; external package benchmark remains separate.
+clean_env_report	local_clean_ci_report	docs/SNRA_clean_env_CI_report_v1_0.md	pass	Local isolated venv install/import/CLI/manifest/tests/script-compile passed.
+clean_env_commands	local_clean_ci_command_table	results/snra_clean_env_ci_v1_0/clean_env_command_log.tsv	pass	Command-level trace for clean-env CI.

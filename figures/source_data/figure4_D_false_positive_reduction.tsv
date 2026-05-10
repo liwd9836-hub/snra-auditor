@@ -1,0 +1,7 @@
+dataset	tool	observed_positive_call_rate	max_negative_control_positive_call_rate	min_negative_control_positive_call_rate	failed_rows	verdict	false_positive_reduction
+CRC_ST	CellCharter	0.9696969696969696	0.9848484848484848	0.8484848484848485	0	negative_control_unstable	-0.015151515151515138
+CRC_ST	SpaceFlow	0.7142857142857143	0.4285714285714285	0.0	0	partial_negative_control_leakage	0.2857142857142858
+CRC_ST	Squidpy	0.9848484848484848	0.9545454545454546	0.0757575757575757	0	negative_control_unstable	0.030303030303030165
+Wu_breast	CellCharter	0.8214285714285714	0.9285714285714286	0.7142857142857143	0	negative_control_unstable	-0.1071428571428572
+Wu_breast	SpaceFlow	0.5	0.1666666666666666	0.0	0	usable_comparator_with_caveat	0.33333333333333337
+Wu_breast	Squidpy	0.9642857142857144	0.9642857142857144	0.0357142857142857	0	negative_control_unstable	0.0

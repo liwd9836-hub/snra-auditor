@@ -1,0 +1,25 @@
+﻿cff-version: 1.2.0
+message: "If you use SNRA, please cite the archived software release and the associated manuscript."
+title: "SNRA: Spatial Niche Robustness Auditor"
+abstract: "Spatial Niche Robustness Auditor is a lightweight audit framework for calibrating spatial omics domain, boundary and package-output claims against matched negative controls."
+version: "0.1.0"
+date-released: "2026-05-09"
+license: "BSD-3-Clause"
+authors:
+  - name: "SNRA development team"
+repository-code: "https://github.com/liwd9836-hub/snra-auditor"
+url: "https://github.com/liwd9836-hub/snra-auditor"
+keywords:
+  - spatial omics
+  - negative controls
+  - claim calibration
+  - tumor domain
+  - robustness audit
+preferred-citation:
+  type: article
+  title: "Spatial Niche Robustness Auditor calibrates spatial omics claims with matched negative controls"
+  authors:
+    - name: "SNRA development team"
+  year: 2026
+  notes: "Manuscript in preparation; replace with journal citation after acceptance."
+

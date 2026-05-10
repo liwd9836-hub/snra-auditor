@@ -1,0 +1,5 @@
+item	status
+package import	PASS
+CLI help	PASS
+core manifest	PASS
+regression tests	PASS

@@ -1,0 +1,6 @@
+claim_type	example	major_failure_mode
+domain	tumor/stroma/TLS regions	composition, batch, segmentation
+boundary	invasive margin or niche border	density, FOV block, label leakage
+co-localization	cell-type proximity	abundance and tissue region
+communication	ligand-receptor neighborhood	expression degree and distance
+package endpoint	cluster/domain call	default method false positives

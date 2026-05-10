@@ -1,0 +1,29 @@
+dataset	tool	control	n_rows	n_samples	positive_call_rows	positive_call_rate	failed_rows	max_original_n_units	max_n_units	n_perms	mean_metric_value	benchmark_scope	benchmark_mode
+CRC_ST	CellCharter	composition_bin_shuffle	14	3.0	14.0	1.0	0.0	2317.0	800.0	3.0	0.1894786918447131	package_positive_call_rate	bounded_current_python_env_top3_samples_cap800_nperms3
+CRC_ST	CellCharter	dominant_composition_shuffle	14	3.0	14.0	1.0	0.0	2317.0	800.0	3.0	0.1250988347899346	package_positive_call_rate	bounded_current_python_env_top3_samples_cap800_nperms3
+CRC_ST	CellCharter	observed	14	3.0	14.0	1.0	0.0	2317.0	800.0	3.0	0.4126538375303859	package_positive_call_rate	bounded_current_python_env_top3_samples_cap800_nperms3
+CRC_ST	CellCharter	spatial_block_shuffle	14	3.0	14.0	1.0	0.0	2317.0	800.0	3.0	0.19308794005995705	package_positive_call_rate	bounded_current_python_env_top3_samples_cap800_nperms3
+CRC_ST	CellCharter	within_sample_label_shuffle	14	3.0	14.0	1.0	0.0	2317.0	800.0	3.0	0.08282749425797235	package_positive_call_rate	bounded_current_python_env_top3_samples_cap800_nperms3
+CRC_ST	Squidpy	composition_bin_shuffle	14	3.0	14.0	1.0	0.0	2317.0	800.0	3.0	15.429092826623398	package_positive_call_rate	bounded_current_python_env_top3_samples_cap800_nperms3
+CRC_ST	Squidpy	dominant_composition_shuffle	14	3.0	9.0	0.6428571428571429	0.0	2317.0	800.0	3.0	3.2300011981605743	package_positive_call_rate	bounded_current_python_env_top3_samples_cap800_nperms3
+CRC_ST	Squidpy	observed	14	3.0	14.0	1.0	0.0	2317.0	800.0	3.0	41.00813808518583	package_positive_call_rate	bounded_current_python_env_top3_samples_cap800_nperms3
+CRC_ST	Squidpy	spatial_block_shuffle	14	3.0	13.0	0.9285714285714286	0.0	2317.0	800.0	3.0	14.445887205994731	package_positive_call_rate	bounded_current_python_env_top3_samples_cap800_nperms3
+CRC_ST	Squidpy	within_sample_label_shuffle	14	3.0	1.0	0.07142857142857142	0.0	2317.0	800.0	3.0	-0.3354759376793856	package_positive_call_rate	bounded_current_python_env_top3_samples_cap800_nperms3
+Wu_breast	CellCharter	composition_bin_shuffle	14	3.0	14.0	1.0	0.0	4846.0	800.0	3.0	0.18730442385588372	package_positive_call_rate	bounded_current_python_env_top3_samples_cap800_nperms3
+Wu_breast	CellCharter	dominant_composition_shuffle	14	3.0	12.0	0.8571428571428571	0.0	4846.0	800.0	3.0	0.13451525302869932	package_positive_call_rate	bounded_current_python_env_top3_samples_cap800_nperms3
+Wu_breast	CellCharter	observed	14	3.0	14.0	1.0	0.0	4846.0	800.0	3.0	0.4766921857815413	package_positive_call_rate	bounded_current_python_env_top3_samples_cap800_nperms3
+Wu_breast	CellCharter	spatial_block_shuffle	14	3.0	14.0	1.0	0.0	4846.0	800.0	3.0	0.24528335673468454	package_positive_call_rate	bounded_current_python_env_top3_samples_cap800_nperms3
+Wu_breast	CellCharter	within_sample_label_shuffle	14	3.0	13.0	0.9285714285714286	0.0	4846.0	800.0	3.0	0.1314696967601776	package_positive_call_rate	bounded_current_python_env_top3_samples_cap800_nperms3
+Wu_breast	Squidpy	composition_bin_shuffle	14	3.0	13.0	0.9285714285714286	0.0	4846.0	800.0	3.0	inf	package_positive_call_rate	bounded_current_python_env_top3_samples_cap800_nperms3
+Wu_breast	Squidpy	dominant_composition_shuffle	14	3.0	6.0	0.42857142857142855	0.0	4846.0	800.0	3.0	2.80729210607768	package_positive_call_rate	bounded_current_python_env_top3_samples_cap800_nperms3
+Wu_breast	Squidpy	observed	14	3.0	14.0	1.0	0.0	4846.0	800.0	3.0	68.60868928496508	package_positive_call_rate	bounded_current_python_env_top3_samples_cap800_nperms3
+Wu_breast	Squidpy	spatial_block_shuffle	14	3.0	12.0	0.8571428571428571	0.0	4846.0	800.0	3.0	inf	package_positive_call_rate	bounded_current_python_env_top3_samples_cap800_nperms3
+Wu_breast	Squidpy	within_sample_label_shuffle	14	3.0	1.0	0.07142857142857142	0.0	4846.0	800.0	3.0	-0.25119931432545783	package_positive_call_rate	bounded_current_python_env_top3_samples_cap800_nperms3
+CRC_ST	SNRA	composition_bin_shuffle	56			0.9642857142857144						SNRA_control_pass_rate_on_observed_task	full_available_snra_control_summary
+CRC_ST	SNRA	dominant_composition_shuffle	56			1.0						SNRA_control_pass_rate_on_observed_task	full_available_snra_control_summary
+CRC_ST	SNRA	spatial_block_shuffle	56			0.9821428571428572						SNRA_control_pass_rate_on_observed_task	full_available_snra_control_summary
+CRC_ST	SNRA	within_sample_label_shuffle	56			1.0						SNRA_control_pass_rate_on_observed_task	full_available_snra_control_summary
+Wu_breast	SNRA	composition_bin_shuffle	23			1.0						SNRA_control_pass_rate_on_observed_task	full_available_snra_control_summary
+Wu_breast	SNRA	dominant_composition_shuffle	23			1.0						SNRA_control_pass_rate_on_observed_task	full_available_snra_control_summary
+Wu_breast	SNRA	spatial_block_shuffle	23			1.0						SNRA_control_pass_rate_on_observed_task	full_available_snra_control_summary
+Wu_breast	SNRA	within_sample_label_shuffle	23			1.0						SNRA_control_pass_rate_on_observed_task	full_available_snra_control_summary

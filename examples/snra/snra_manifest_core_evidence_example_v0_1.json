@@ -1,0 +1,36 @@
+{
+  "schema_version": "snra_manifest_v0_1",
+  "description": "Package-facing core SNRA evidence example. Includes the dedicated TONIC lineage digest, independent/supporting summaries, and expected failed audit layers.",
+  "inputs": [
+    {
+      "id": "tonic_lineage_boundary_digest",
+      "path": "../../results/snra_phase0_10_v0_1/snra_tonic_lineage_boundary_digest_v0_1.tsv",
+      "table_kind": "summary",
+      "title": "TONIC lineage-stratified boundary digest audit"
+    },
+    {
+      "id": "crc_st_composition_aware_summary",
+      "path": "../../results/snra_phase0_10_v0_1/snra_crc_st_composition_aware_audit_summary_v0_1.tsv",
+      "table_kind": "summary",
+      "title": "CRC ST composition-aware pathology domain audit"
+    },
+    {
+      "id": "wu_breast_composition_aware_summary",
+      "path": "../../results/snra_phase0_10_v0_1/snra_wu_breast_composition_aware_audit_summary_v0_1.tsv",
+      "table_kind": "summary",
+      "title": "Wu breast Visium composition-aware pathology domain audit"
+    },
+    {
+      "id": "bcc_cosmx_fov_stress_summary",
+      "path": "../../results/snra_phase0_10_v0_1/snra_plan_f_bcc_cosmx_morphology_composition_aware_audit_summary_v0_1.tsv",
+      "table_kind": "summary",
+      "title": "BCC CosMx morphology FOV/block stress audit"
+    },
+    {
+      "id": "g5_container_package_summary",
+      "path": "../../results/snra_phase0_10_v0_1/snra_phase_g5_container_full_package_summary_v0_2.tsv",
+      "table_kind": "summary",
+      "title": "G5 container package benchmark summary audit"
+    }
+  ]
+}

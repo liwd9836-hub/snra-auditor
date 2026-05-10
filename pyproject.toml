@@ -1,0 +1,39 @@
+﻿[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "snra-auditor"
+version = "0.1.0"
+description = "Spatial Niche Robustness Auditor: null-calibrated audit cards for spatial domain claims."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = [
+    "numpy>=1.23",
+    "pandas>=1.5",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+]
+authors = [
+    {name = "SNRA development team"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "License :: OSI Approved :: BSD License",
+    "Intended Audience :: Science/Research",
+]
+
+[project.urls]
+Homepage = "https://github.com/liwd9836-hub/snra-auditor"
+Documentation = "https://github.com/liwd9836-hub/snra-auditor#readme"
+Source = "https://github.com/liwd9836-hub/snra-auditor"
+Issues = "https://github.com/liwd9836-hub/snra-auditor/issues"
+
+[project.scripts]
+snra = "snra.cli_v0_1:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

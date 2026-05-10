@@ -1,0 +1,8 @@
+scenario	truth_status	ci_low	ci_high	metric	value
+synthetic_planted_domain	positive	1.0	1.0	sensitivity	1.0
+semi_synthetic_tonic_coordinates	semi_synthetic_positive	0.6218750000000001	1.0	sensitivity	0.875
+semi_synthetic_crc_coordinates	semi_synthetic_positive	0.496875	1.0	sensitivity	0.75
+synthetic_pure_null	pure_null	0.0	0.0	specificity	1.0
+synthetic_composition_confounder	confounded_null	0.0	0.0	specificity	1.0
+synthetic_block_artifact	confounded_null	0.0	0.0	specificity	1.0
+synthetic_degree_confounder	confounded_null	0.0	0.0	specificity	1.0

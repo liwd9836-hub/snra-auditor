@@ -1,0 +1,8 @@
+stress_mode	observed_positive_rate	certificate_rate	false_positive_rate	sensitivity
+pure_null	0.0	0.0	0.0	0.0
+composition_confounder	1.0	0.0	0.0	0.0
+block_artifact	1.0	0.0	0.0	0.0
+degree_confounder	1.0	0.0	0.0	0.0
+planted_domain	1.0	1.0	0.0	1.0
+semi_tonic_coordinates	0.875	0.875	0.0	0.875
+semi_crc_coordinates	1.0	0.75	0.0	0.75

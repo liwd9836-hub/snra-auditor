@@ -1,0 +1,7 @@
+figure	title	panel_count_detected	panel_ids_detected	has_at_least_six_panels	source_table_count	caption_path	caption_exists
+figure1	Problem and workflow overview	6	A,B,C,D,E,F	True	6	figures/captions/figure1_caption.md	True
+figure2	Matched negative-control taxonomy	6	A,B,C,D,E,F	True	6	figures/captions/figure2_caption.md	True
+figure3	Synthetic truth benchmark	6	A,B,C,D,E,F	True	6	figures/captions/figure3_caption.md	True
+figure4	Real-data cross-platform benchmark	6	A,B,C,D,E,F	True	6	figures/captions/figure4_caption.md	True
+figure5	Biological case study	6	A,B,C,D,E,F	True	6	figures/captions/figure5_caption.md	True
+figure6	Software and reproducibility	6	A,B,C,D,E,F	True	6	figures/captions/figure6_caption.md	True

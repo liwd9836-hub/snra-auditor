@@ -1,0 +1,2 @@
+dataset	n_rois	n_objects	has_cell_classes	has_region_masks	region_labels	decision	claim_level
+PanopTILs_manual_regions_manual_nuclei	59	1745	True	True	Cancerous_epithelium;Junk_Debris;Other;Stroma;TILs_region;Whitespace_Empty;mask_missing	PASS_MINIMAL_ORTHOGONAL_CELL_LEVEL_VALIDATION	orthogonal H&E manual region+nuclei validation layer

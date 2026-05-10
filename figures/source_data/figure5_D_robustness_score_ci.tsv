@@ -1,0 +1,5 @@
+evidence_layer	dataset	task	control_or_metric	success_rows	total_rows	rate	ci95_low	ci95_high	interpretation
+TONIC lineage boundary	TONIC_S-BIAD1288	NonCancer_cells__stroma_core_vs_border	lineage_boundary_certified_rate	452	498	0.9076305220883534	0.8789859540181473	0.9300344903151736	primary cell-level boundary layer; controls must remain near zero
+TONIC lineage boundary	TONIC_S-BIAD1288	NonCancer_cells__stroma_core_vs_border	lineage_boundary_certified_rate	454	497	0.9134808853118712	0.8854851815053226	0.9351337843601646	primary cell-level boundary layer; controls must remain near zero
+TONIC lineage boundary	TONIC_S-BIAD1288	Cancer_cells__cancer_core_vs_border	lineage_boundary_certified_rate	406	459	0.8845315904139434	0.8520504533989947	0.9106297112073336	primary cell-level boundary layer; controls must remain near zero
+TONIC lineage boundary	TONIC_S-BIAD1288	Cancer_cells__cancer_core_vs_border	lineage_boundary_certified_rate	375	459	0.8169934640522876	0.7790374822290013	0.8496875259875468	primary cell-level boundary layer; controls must remain near zero

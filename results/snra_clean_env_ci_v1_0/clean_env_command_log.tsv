@@ -1,0 +1,8 @@
+label	command	returncode	seconds	stdout_bytes	stderr_bytes	log_path
+create_venv	C:\Users\Administrator\AppData\Local\hermes\hermes-agent\venv\Scripts\python.exe -m venv D:\projects\suanfa\.snra_clean_env_ci_tmp	0	4.162	0	0	results/snra_clean_env_ci_v1_0/logs/create_venv.log
+upgrade_pip	D:\projects\suanfa\.snra_clean_env_ci_tmp\Scripts\python.exe -m pip install --upgrade pip	0	2.819	437	0	results/snra_clean_env_ci_v1_0/logs/upgrade_pip.log
+install_package	D:\projects\suanfa\.snra_clean_env_ci_tmp\Scripts\python.exe -m pip install .	0	20.55	4097	0	results/snra_clean_env_ci_v1_0/logs/install_package.log
+snra_help	D:\projects\suanfa\.snra_clean_env_ci_tmp\Scripts\snra.exe --help	0	0.76	610	0	results/snra_clean_env_ci_v1_0/logs/snra_help.log
+core_manifest	D:\projects\suanfa\.snra_clean_env_ci_tmp\Scripts\snra.exe manifest --manifest-json examples/snra/snra_manifest_core_evidence_example_v0_1.json --out-dir D:\projects\suanfa\results\snra_clean_env_ci_v1_0\core_manifest	0	0.689	728	0	results/snra_clean_env_ci_v1_0/logs/core_manifest.log
+focused_unittest	D:\projects\suanfa\.snra_clean_env_ci_tmp\Scripts\python.exe -m unittest tests.test_snra_package_prototype_v0_1 tests.test_snra_regression_inputs_v0_1 tests.test_snra_manifest_cli_v0_1 tests.snra.test_snra_minimal	0	5.588	0	113	results/snra_clean_env_ci_v1_0/logs/focused_unittest.log
+script_py_compile	D:\projects\suanfa\.snra_clean_env_ci_tmp\Scripts\python.exe -m py_compile scripts_run_snra_submission_reproduction_v1_0.py scripts_profile_snra_runtime_memory_v1_0.py scripts_run_snra_synthetic_truth_benchmark_v1_0.py	0	0.07	0	0	results/snra_clean_env_ci_v1_0/logs/script_py_compile.log

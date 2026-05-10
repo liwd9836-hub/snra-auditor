@@ -1,0 +1,5 @@
+dataset	platform	spatial_unit	samples_or_fovs	spatial_units	certificate_rate
+TONIC	cell imaging	cell	240	103815	0.881
+CRC ST	spatial transcriptomics	spot	14	20725	0.9642857142857144
+Wu breast	Visium	spot	6	15599	1.0
+BCC CosMx	CosMx	cell/FOV	2	63092	0.3333333333333333

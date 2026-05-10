@@ -1,0 +1,8 @@
+scenario	truth_status	n_units	n_samples	confounder_strength	observed_positive_rate	matched_null_positive_rate	false_positive_rate	sensitivity	specificity	certificate_rate	mean_margin	ci_low	ci_high
+synthetic_pure_null	pure_null	1440	8	0.0	0.0	0.0	0.0		1.0	0.0	-0.013589811485914921	0.0	0.0
+synthetic_planted_domain	positive	1440	8	1.0	1.0	1.0	0.0	1.0		1.0	0.07935968775683913	1.0	1.0
+synthetic_composition_confounder	confounded_null	1440	8	0.85	1.0	0.0	0.0		1.0	0.0	-2.7755575615628914e-17	0.0	0.0
+synthetic_block_artifact	confounded_null	1440	8	1.0	1.0	0.0	0.0		1.0	0.0	-4.85722573273506e-17	0.0	0.0
+synthetic_degree_confounder	confounded_null	1440	8	1.0	1.0	0.0	0.0		1.0	0.0	3.469446951953614e-17	0.0	0.0
+semi_synthetic_tonic_coordinates	semi_synthetic_positive	1339	8	1.0	0.875	0.875	0.0	0.875		0.875	0.13754978622272995	0.6218750000000001	1.0
+semi_synthetic_crc_coordinates	semi_synthetic_positive	1440	8	1.0	1.0	0.75	0.0	0.75		0.75	0.1412262477490514	0.49687500000000007	1.0

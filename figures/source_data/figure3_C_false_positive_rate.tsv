@@ -1,0 +1,9 @@
+scenario	confounder_strength	method	positive_rate
+synthetic_pure_null	0.0	uncalibrated	0.0
+synthetic_composition_confounder	0.85	uncalibrated	1.0
+synthetic_block_artifact	1.0	uncalibrated	1.0
+synthetic_degree_confounder	1.0	uncalibrated	1.0
+synthetic_pure_null	0.0	SNRA strict certificate	0.0
+synthetic_composition_confounder	0.85	SNRA strict certificate	0.0
+synthetic_block_artifact	1.0	SNRA strict certificate	0.0
+synthetic_degree_confounder	1.0	SNRA strict certificate	0.0

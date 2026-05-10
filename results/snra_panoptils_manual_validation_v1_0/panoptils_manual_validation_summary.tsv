@@ -1,0 +1,2 @@
+dataset	n_rois	n_objects_used	observed_match_score	controls_passed	controls_total	control_pass_rate	decision	claim_boundary
+PanopTILs_manual_regions_manual_nuclei	56	1415	0.8226148409893993	4	4	1.0	PASS_ORTHOGONAL_MANUAL_REGION_CELL_VALIDATION	H&E manual region+nuclei geometry validation; not molecular spatial-omics validation

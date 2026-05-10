@@ -1,0 +1,5 @@
+failure_mode	risk_score
+composition	0.78
+region/background	0.66
+FOV/block	0.58
+method default	0.49

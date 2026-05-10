@@ -1,0 +1,5 @@
+object	required_fields
+input	unit_id, x, y, label, sample
+manifest	claim_type, controls, threshold
+output	certificate, CI, verdict, caveat
+trace	source_data, code, seed, version

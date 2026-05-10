@@ -1,0 +1,7 @@
+claim_type	label	abundance	region	degree	FOV/block	distance
+domain	1	1	1	0	1	0
+boundary	1	1	1	1	1	1
+co-localization	1	1	1	1	0	1
+composition	1	1	1	0	1	0
+package	1	1	1	0	1	0
+communication	1	1	1	1	0	1

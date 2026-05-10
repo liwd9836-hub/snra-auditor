@@ -1,0 +1,77 @@
+name: SNRA tests
+
+on:
+  push:
+    paths:
+      - "pyproject.toml"
+      - "src/**"
+      - "tests/**"
+      - "metadata/snra/**"
+      - "results/snra_phase0_10_v0_1/**"
+      - "scripts_profile_snra_runtime_memory_v1_0.py"
+      - "scripts_run_snra_submission_reproduction_v1_0.py"
+      - ".github/workflows/snra-tests.yml"
+  pull_request:
+    paths:
+      - "pyproject.toml"
+      - "src/**"
+      - "tests/**"
+      - "metadata/snra/**"
+      - "results/snra_phase0_10_v0_1/**"
+      - "scripts_profile_snra_runtime_memory_v1_0.py"
+      - "scripts_run_snra_submission_reproduction_v1_0.py"
+      - ".github/workflows/snra-tests.yml"
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    name: Python ${{ matrix.python-version }} smoke
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11"]
+
+    env:
+      OPENBLAS_NUM_THREADS: "1"
+      OMP_NUM_THREADS: "1"
+      MKL_NUM_THREADS: "1"
+      NUMEXPR_NUM_THREADS: "1"
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install package
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e .
+
+      - name: CLI help and toy demo
+        run: |
+          snra --help
+          python -m src.snra.cli_v0_1 demo --out-dir /tmp/snra_demo_ci
+          test -f /tmp/snra_demo_ci/snra_demo_audit_summary_v0_1.tsv
+          test -f /tmp/snra_demo_ci/snra_demo_audit_card_v0_1.md
+
+      - name: Core manifest smoke reproduction
+        run: |
+          python -m src.snra.cli_v0_1 manifest \
+            --manifest-json metadata/snra/snra_manifest_core_evidence_v0_1.json \
+            --out-dir /tmp/snra_core_manifest_ci
+          test -f /tmp/snra_core_manifest_ci/snra_manifest_audit_summary_v0_1.tsv
+
+      - name: Focused lightweight unit tests
+        run: |
+          python -c "import runpy; ns = runpy.run_path('tests/snra/test_snra_minimal.py'); ns['test_simulated_dataset_validates'](); ns['test_audit_runs_on_small_simulation']()"
+
+      - name: Syntax check Worker C scripts
+        run: |
+          python -m py_compile \
+            scripts_profile_snra_runtime_memory_v1_0.py \
+            scripts_run_snra_submission_reproduction_v1_0.py

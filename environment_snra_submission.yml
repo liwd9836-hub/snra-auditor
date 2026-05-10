@@ -1,0 +1,13 @@
+name: snra-submission
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy>=1.23
+  - pandas>=1.5
+  - scipy>=1.10
+  - matplotlib
+  - pytest
+  - pip:
+      - -e .

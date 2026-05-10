@@ -1,0 +1,5 @@
+field	example_value
+claim	lineage boundary robustness
+certificate	0.881
+matched controls	within-sample; within-type
+decision	allowed with scope limits
