@@ -1,4 +1,4 @@
-﻿cff-version: 1.2.0
+cff-version: 1.2.0
 message: "If you use SNRA, please cite the archived software release and the associated manuscript."
 title: "SNRA: Spatial Niche Robustness Auditor"
 abstract: "Spatial Niche Robustness Auditor is a lightweight audit framework for calibrating spatial omics domain, boundary and package-output claims against matched negative controls."

@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "SNRA: Spatial Niche Robustness Auditor",
   "description": "Software and reproducibility artifacts for a negative-control-aware auditor that certifies, downgrades or blocks spatial omics domain and boundary claims under predefined null, composition, block, subsampling and package-stress controls.",
   "creators": [

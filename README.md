@@ -1,4 +1,4 @@
-﻿# SNRA Auditor
+# SNRA Auditor
 
 Spatial Niche Robustness Auditor (SNRA) is a negative-control-aware audit framework for spatial omics claims. It is designed to certify, downgrade, or block post-hoc tumor-domain, boundary, niche, and package-output interpretations under matched null, composition, block, subsampling, and package-stress controls.
 
